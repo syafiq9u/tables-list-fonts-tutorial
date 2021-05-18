@@ -1,0 +1,31 @@
+table, tr, td, th
+		{
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 5px;
+			width: 50%;
+		}
+
+tr:nth-child(even)
+		{
+			background-color: #c2f2d0
+		}
+
+tr:nth-child(odd)
+		{
+			background-color: #ffc5d9 
+		}
+th
+		{
+			background-color: #ffcb85
+		}
+
+tr:hover
+		{
+			background-color: #fdf5c9
+		}
+
+p
+		{
+			font-family: 'Merienda One', cursive;
+		}
